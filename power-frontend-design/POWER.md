@@ -7,7 +7,6 @@ keywords: [
   "组件", "component", "美化", "样式", "界面", 
   "landing page", "dashboard", "style"
 ]
-author: "梁典典"
 ---
 
 # Onboarding
