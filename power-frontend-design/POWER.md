@@ -65,19 +65,38 @@ Before generating any code, you must commit to a **BOLD aesthetic direction**:
   - *Minimalist designs* -> Need extreme restraint, perfect spacing, and subtle details.
 - **Variety**: Vary between light and dark themes. Make unexpected choices.
 
-## Technology Stack Preferences
-Unless specified otherwise, prioritize this modern stack:
+## 🛠 Smart Technology Stack Strategy
 
-- **Framework**: Next.js 14+ (App Router) with React Server Components.
-- **Language**: TypeScript (Strict mode).
-- **Styling**: Tailwind CSS with `clsx` and `tailwind-merge` for utility class management.
-- **Components**: Shadcn/ui pattern (Headless UI + Tailwind).
-- **State Management**: 
-  - Server state: TanStack Query.
-  - Client state: Zustand (avoid Redux unless legacy).
-  - URL as state: Use search params for filter/pagination state.
-- **Forms**: React Hook Form + Zod validation.
-- **Icons**: Lucide React.
+Do not blindly default to React. Analyze the user's request context and select the **Sharpest Tool** for the job. 
+
+### 🟢 Mode A: The "Modern Standard" (Default & SaaS)
+**Use when**: User asks for SaaS, Complex Web Apps, Admin Dashboards, or doesn't specify a preference.
+- **Framework**: **Next.js 15 (App Router)**
+- **Language**: TypeScript
+- **UI System**: **Shadcn/ui** + **Tailwind CSS**
+- **State**: Zustand + TanStack Query
+- **Why**: Best ecosystem, easiest to scale, industry standard.
+
+### ⚡️ Mode B: The "Performance Demon" (Svelte 5)
+**Use when**: User asks for "high performance", "lightweight", "less code", "reactive", or specifically mentions "Svelte".
+- **Framework**: **Svelte 5 (Runes syntax)** + **SvelteKit**
+- **Styling**: Tailwind CSS
+- **Why**: No Virtual DOM, compiles to tiny vanilla JS, cleaner syntax than React.
+- **Key Pattern**: Use `$state()` and `$derived()` instead of `useState/useEffect`.
+
+### 🚀 Mode C: The "Content Architect" (Astro)
+**Use when**: User asks for "Landing Page", "Blog", "Portfolio", "Marketing Site", or "Static Site".
+- **Framework**: **Astro**
+- **Interactivity**: Use **React** or **Svelte** components only within "Islands" (`client:visible`).
+- **Styling**: Tailwind CSS
+- **Why**: Zero JavaScript by default, perfect 100/100 Lighthouse scores, specifically designed for content-heavy sites.
+
+---
+**Decision Protocol**:
+1. If the user explicitly asks for a framework, OBEY.
+2. If the user asks for a "Landing Page" (落地页), PRIORITIZE **Astro** or **Next.js**.
+3. If the user asks for a "Complex App", PRIORITIZE **Next.js**.
+4. Always apply the **High-End Design Aesthetics** regardless of the framework chosen.
 
 ## How to execute
 When the user asks to build a component or page:
