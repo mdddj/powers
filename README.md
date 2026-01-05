@@ -146,6 +146,23 @@ Toolkit for interacting with and testing local web applications using Playwright
 
 ---
 
+#### 9. 🦀 Makepad Rust UI Framework
+**Power Name:** `makepad-rust`  
+**GitHub URL:** `https://github.com/mdddj/powers/tree/main/power-makepad-rust`
+
+Makepad - an open-source cross-platform UI framework written in Rust. Supports Windows, Linux, macOS, iOS, Android, and Web. GPU shader-based rendering with real-time styling and high-performance UI development.
+
+**Keywords:** makepad, rust, ui, gui, cross-platform, gpu, shader, live dsl, sdf2d, widget
+
+**Installation:**
+```
+1. Open Kiro IDE → Powers Panel
+2. Click "Add power from GitHub"
+3. Enter: https://github.com/mdddj/powers/tree/main/power-makepad-rust
+```
+
+---
+
 ### 🚀 Quick Start
 
 1. **Install a Power:**

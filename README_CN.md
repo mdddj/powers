@@ -142,6 +142,23 @@
 
 ---
 
+### 9. 🦀 Makepad Rust UI 框架
+**Power 名称:** `makepad-rust`  
+**GitHub 地址:** `https://github.com/mdddj/powers/tree/main/power-makepad-rust`
+
+Makepad - 用 Rust 编写的开源跨平台 UI 框架，支持 Windows、Linux、macOS、iOS、Android 和 Web。基于 GPU 着色器渲染，提供实时样式化和高性能 UI 开发体验。
+
+**关键词:** makepad、rust、ui、gui、跨平台、gpu、着色器、live dsl、sdf2d、widget
+
+**安装方法:**
+```
+1. 打开 Kiro IDE → Powers 面板
+2. 点击 "Add power from GitHub"
+3. 输入: https://github.com/mdddj/powers/tree/main/power-makepad-rust
+```
+
+---
+
 ## 🚀 快速开始
 
 ### 安装 Power
