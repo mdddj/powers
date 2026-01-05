@@ -1,1 +1,10 @@
+# Local files
+.DS_Store
+parse.md
 
+# IDE
+.kiro/
+.vscode/
+
+# Submodules/external
+skills/
