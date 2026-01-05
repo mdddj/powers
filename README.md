@@ -129,6 +129,23 @@ Create distinctive, production-grade frontend interfaces with high design qualit
 
 ---
 
+#### 8. 🧪 Web Application Testing
+**Power Name:** `webapp-testing`  
+**GitHub URL:** `https://github.com/mdddj/powers/tree/main/power-webapp-testing`
+
+Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.
+
+**Keywords:** playwright, testing, web, browser, automation, e2e, end-to-end, screenshot, ui testing
+
+**Installation:**
+```
+1. Open Kiro IDE → Powers Panel
+2. Click "Add power from GitHub"
+3. Enter: https://github.com/mdddj/powers/tree/main/power-webapp-testing
+```
+
+---
+
 ### 🚀 Quick Start
 
 1. **Install a Power:**

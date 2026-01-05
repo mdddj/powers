@@ -125,6 +125,23 @@
 
 ---
 
+### 8. 🧪 Web 应用测试工具
+**Power 名称:** `webapp-testing`  
+**GitHub 地址:** `https://github.com/mdddj/powers/tree/main/power-webapp-testing`
+
+使用 Playwright 与本地 Web 应用交互和测试的工具包。支持验证前端功能、调试 UI 行为、捕获浏览器截图和查看浏览器日志。
+
+**关键词:** playwright、测试、浏览器、自动化、端到端测试、e2e、截图、前端测试
+
+**安装方法:**
+```
+1. 打开 Kiro IDE → Powers 面板
+2. 点击 "Add power from GitHub"
+3. 输入: https://github.com/mdddj/powers/tree/main/power-webapp-testing
+```
+
+---
+
 ## 🚀 快速开始
 
 ### 安装 Power
