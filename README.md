@@ -163,6 +163,23 @@ Makepad - an open-source cross-platform UI framework written in Rust. Supports W
 
 ---
 
+#### 10. 🌐 Salvo Rust Web Framework
+**Power Name:** `salvo-rust`  
+**GitHub URL:** `https://github.com/mdddj/powers/tree/main/power-salvo-rust`
+
+Salvo - 用 Rust 编写的简单而强大的 Web 框架。统一的 Handler/Middleware 设计，灵活的路由系统，支持 OpenAPI、JWT、CORS、限流等丰富功能。
+
+**Keywords:** salvo, rust, web, framework, api, http, server, middleware, router, openapi, jwt, cors
+
+**Installation:**
+```
+1. Open Kiro IDE → Powers Panel
+2. Click "Add power from GitHub"
+3. Enter: https://github.com/mdddj/powers/tree/main/power-salvo-rust
+```
+
+---
+
 ### 🚀 Quick Start
 
 1. **Install a Power:**
