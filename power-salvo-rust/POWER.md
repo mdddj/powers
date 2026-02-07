@@ -35,7 +35,7 @@ Salvo 是一个用 Rust 编写的极简而强大的 Web 框架，基于 Hyper �
 
 ```toml
 [dependencies]
-salvo = "0.73"
+salvo = "0.89.1"
 tokio = { version = "1", features = ["macros"] }
 ```
 
